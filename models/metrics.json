@@ -1,0 +1,72 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.9604166666666667,
+    "precision": 0.8983050847457628,
+    "recall": 0.9380530973451328,
+    "f1": 0.9177489177489178,
+    "roc_auc": 0.9915362542499578,
+    "confusion_matrix": [
+      [
+        355,
+        12
+      ],
+      [
+        7,
+        106
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.97       367\n           1       0.90      0.94      0.92       113\n\n    accuracy                           0.96       480\n   macro avg       0.94      0.95      0.95       480\nweighted avg       0.96      0.96      0.96       480\n",
+    "best_params": {
+      "clf__C": 10.0,
+      "clf__class_weight": null
+    },
+    "cv_f1_mean": 0.9000560015937966
+  },
+  "knn": {
+    "accuracy": 0.95625,
+    "precision": 0.9509803921568627,
+    "recall": 0.8584070796460177,
+    "f1": 0.9023255813953488,
+    "roc_auc": 0.9878951556509368,
+    "confusion_matrix": [
+      [
+        362,
+        5
+      ],
+      [
+        16,
+        97
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.96      0.99      0.97       367\n           1       0.95      0.86      0.90       113\n\n    accuracy                           0.96       480\n   macro avg       0.95      0.92      0.94       480\nweighted avg       0.96      0.96      0.96       480\n",
+    "best_params": {
+      "clf__n_neighbors": 21,
+      "clf__weights": "uniform"
+    },
+    "cv_f1_mean": 0.8622137936040405
+  },
+  "decision_tree": {
+    "accuracy": 0.9520833333333333,
+    "precision": 0.875,
+    "recall": 0.9292035398230089,
+    "f1": 0.9012875536480687,
+    "roc_auc": 0.9718960237274239,
+    "confusion_matrix": [
+      [
+        352,
+        15
+      ],
+      [
+        8,
+        105
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.98      0.96      0.97       367\n           1       0.88      0.93      0.90       113\n\n    accuracy                           0.95       480\n   macro avg       0.93      0.94      0.93       480\nweighted avg       0.95      0.95      0.95       480\n",
+    "best_params": {
+      "clf__class_weight": "balanced",
+      "clf__max_depth": 3,
+      "clf__min_samples_leaf": 1
+    },
+    "cv_f1_mean": 0.9152135009067436
+  }
+}

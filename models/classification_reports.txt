@@ -1,0 +1,33 @@
+===== logistic_regression =====
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.97       367
+           1       0.90      0.94      0.92       113
+
+    accuracy                           0.96       480
+   macro avg       0.94      0.95      0.95       480
+weighted avg       0.96      0.96      0.96       480
+
+
+===== knn =====
+              precision    recall  f1-score   support
+
+           0       0.96      0.99      0.97       367
+           1       0.95      0.86      0.90       113
+
+    accuracy                           0.96       480
+   macro avg       0.95      0.92      0.94       480
+weighted avg       0.96      0.96      0.96       480
+
+
+===== decision_tree =====
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       367
+           1       0.88      0.93      0.90       113
+
+    accuracy                           0.95       480
+   macro avg       0.93      0.94      0.93       480
+weighted avg       0.95      0.95      0.95       480
+
+
